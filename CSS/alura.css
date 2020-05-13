@@ -1,0 +1,86 @@
+body{
+    /*background:white;*/
+    /*backgroud = muda a background do site*/
+    /*background-image: url(Back1.jpg);
+    /*background-image = coloca um imagen de fundo no site*/
+
+    /*background-size: auto 110vh;
+    /*100 = 100%*/
+    /*vh = View higth = Se adapta a altura de qualquer tela*/
+
+    background-color:white;
+
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    /*Font-family = tipo de fonte*/
+
+}
+
+/*.sub-title,
+Depois de difinir as propriedades do título, você pode reaproveitar
+essas propriedades colocando em que você predendo atribuir as propriedade
+e ultilizando um vírgula*/
+.site-title {
+    color: gray;
+    text-align: center;
+}
+
+.sub-title,
+.sub-title2 {
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+/*se quiser adicionar alguma propriedade que não contenha no título
+basta chamá-la normalmente e adicionar o que deseja.*/
+
+a{
+    color: blue;
+    /*Mudar a cor do texto no menu*/
+    text-decoration: none;
+    /*esconde o underline dos links na página */
+   
+}
+
+a:hover {
+    color:#00BFFF;
+    /*Mudar a cor do texto no menu quando passar o mouse por cima*/
+    text-decoration: underline;
+    /*a: = Pseudo tag */
+    /* hover = quando passar o mouse*/
+    /*text-decoration: underline; = aparece o underline*/
+
+}
+
+/*Todas as vezes em que for necessáio usar um class do html usa-se
+ "." antes do nome da class*/
+
+ /*Todas as vezes em que for necessáio usar um ID do html usa-se
+ "#" antes do nome da class*/
+
+ .menu {
+    background-color:white;
+ }
+
+.menu li {
+    /*selecinando todas as "li" que estão dentro de uma class "menu"*/
+    list-style: none;
+    /*list-style = estilo de listas*/
+    
+}
+
+.menu ul {
+    /*Todas as "ul" que estão dentro da class "menu"*/
+    display: flex;
+    /*Flex = faz com os elementos sejam mostrados na horizontal*/
+    justify-content: space-around;
+    /*Local do conteúdo no site*/
+    /*Space around = espaços iguais entre os tópicos*/
+    
+}
+
+#square{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
